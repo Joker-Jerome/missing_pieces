@@ -1,0 +1,2 @@
+<input type="hidden" id="csrf_token" value="<%= get_csrf_token() %>">
+<div id="bucklescript-element"></div>

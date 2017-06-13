@@ -1,0 +1,12 @@
+{
+    "name": "bucklescript_app",
+    "sources": [
+        {
+            "dir": "bs"
+        }
+    ],
+    "bs-dependencies": [
+        "bucklescript-tea"
+    ],
+    "generate-merlin": false
+}
