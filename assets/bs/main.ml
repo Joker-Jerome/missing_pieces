@@ -37,8 +37,8 @@ let sectionInput model =
                                                                                                        ; Vdom.fullnode "" "small" "" "" [] [text "11:09 PM - 1 Jan 2016"]]]]
                            ]
     ; div [class' "field is-grouped"] [
-        p [class' "control"] [a [class' "button is-primary is-outlined"; onClick Convert] [text "Previous"]]
-      ; p [class' "control"] [a [class' "button is-primary is-outlined"; Vdom.prop "data-clipboard-target" "textarea#output"] [text "Next"]]
+        p [class' "control"] [a [class' "button is-danger is-outlined"; onClick Convert] [text "Previous"]]
+      ; p [class' "control"] [a [class' "button is-danger is-outlined"; Vdom.prop "data-clipboard-target" "textarea#output"] [text "Next"]]
       ]
     ]
     ]
